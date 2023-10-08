@@ -46,8 +46,8 @@
                 <group name="bill" position="attributes">
                     <attribute name="groups">purchase.group_purchase_manager</attribute>
                 </group>
-                <group name="bill" position="inside">
-                    <field name="purchase_method" widget="radio"/>
+                <group invisible="1"name="bill" position="inside">
+                    <field invisible="1" name="purchase_method" widget="radio"/>
                 </group>
                 <page name="purchase" position="inside">
                     <group string="Purchase Description">
